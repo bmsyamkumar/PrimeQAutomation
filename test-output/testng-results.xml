@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="4" total="6" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="330919" started-at="2018-04-27T06:54:49Z" finished-at="2018-04-27T07:00:20Z">
+    <groups>
+      <group name="regression">
+        <method signature="CreateCustomer.CreateCustomer(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.web.automation.scripts.CreateCustomer@396e2f39]" name="CreateCustomer" class="com.web.automation.scripts.CreateCustomer"/>
+        <method signature="CreateJournal.CreateJournal(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.web.automation.scripts.CreateJournal@22eeefeb]" name="CreateJournal" class="com.web.automation.scripts.CreateJournal"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="CreateCustomer.CreateCustomer(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.web.automation.scripts.CreateCustomer@396e2f39]" name="CreateCustomer" class="com.web.automation.scripts.CreateCustomer"/>
+        <method signature="CreateJournal.CreateJournal(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.web.automation.scripts.CreateJournal@22eeefeb]" name="CreateJournal" class="com.web.automation.scripts.CreateJournal"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test name="Default test 2" duration-ms="330919" started-at="2018-04-27T06:54:49Z" finished-at="2018-04-27T07:00:20Z">
+      <class name="com.web.automation.scripts.CreateCustomer">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.web.automation.scripts.CreateCustomer@396e2f39]" name="beforeClass" is-config="true" duration-ms="29151" started-at="2018-04-27T12:27:42Z" finished-at="2018-04-27T12:28:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.web.automation.scripts.CreateCustomer@396e2f39]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2018-04-27T12:28:12Z" finished-at="2018-04-27T12:28:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.web.automation.scripts.CreateCustomer.CreateCustomer(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.Throwable]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="CreateCustomer(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.web.automation.scripts.CreateCustomer@396e2f39]" name="CreateCustomer" duration-ms="105926" started-at="2018-04-27T12:28:12Z" description="Create Customer" data-provider="DataSets" finished-at="2018-04-27T12:29:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Cigniti]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Cigniti123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[TestCustomer23]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[test number]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[23]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[test description]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[External]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Public sector companies]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[ENTERPRISE]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[HEAD OFFICE]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[King St]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[Sydney]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[Bill to]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[Statements]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[PrimeQ - Australia]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[Mr.]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[FirstName]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[LastName]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[Contact]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[E-mail]]>
+              </value>
+            </param>
+            <param index="20">
+              <value>
+                <![CDATA[Work]]>
+              </value>
+            </param>
+            <param index="21">
+              <value>
+                <![CDATA[HTML e-mail]]>
+              </value>
+            </param>
+            <param index="22">
+              <value>
+                <![CDATA[abc@def.com]]>
+              </value>
+            </param>
+            <param index="23">
+              <value>
+                <![CDATA[Bill to]]>
+              </value>
+            </param>
+            <param index="24">
+              <value>
+                <![CDATA[Statements]]>
+              </value>
+            </param>
+            <param index="25">
+              <value>
+                <![CDATA[King St]]>
+              </value>
+            </param>
+            <param index="26">
+              <value>
+                <![CDATA[Sydney]]>
+              </value>
+            </param>
+            <param index="27">
+              <value>
+                <![CDATA[Bill to]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateCustomer -->
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:com.web.automation.scripts.CreateCustomer@396e2f39]" name="afterMethod" is-config="true" duration-ms="34" started-at="2018-04-27T12:29:58Z" finished-at="2018-04-27T12:29:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.web.automation.scripts.CreateCustomer.CreateCustomer(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.Throwable]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=CreateCustomer status=SUCCESS method=CreateCustomer.CreateCustomer(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.web.automation.scripts.CreateCustomer@396e2f39] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.web.automation.scripts.CreateCustomer@396e2f39]" name="afterClass" is-config="true" duration-ms="22065" started-at="2018-04-27T12:29:58Z" finished-at="2018-04-27T12:30:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.web.automation.scripts.CreateCustomer -->
+      <class name="com.web.automation.scripts.CreateJournal">
+        <test-method status="PASS" signature="beforeSuite(org.testng.ITestContext)[pri:0, instance:com.web.automation.scripts.CreateJournal@22eeefeb]" name="beforeSuite" is-config="true" duration-ms="71" started-at="2018-04-27T12:24:49Z" finished-at="2018-04-27T12:24:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3bbc39f8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeTest(org.testng.ITestContext)[pri:0, instance:com.web.automation.scripts.CreateJournal@22eeefeb]" name="beforeTest" is-config="true" duration-ms="1543" started-at="2018-04-27T12:24:49Z" finished-at="2018-04-27T12:24:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3bbc39f8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.web.automation.scripts.CreateJournal@22eeefeb]" name="beforeClass" is-config="true" duration-ms="14014" started-at="2018-04-27T12:24:50Z" finished-at="2018-04-27T12:25:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.web.automation.scripts.CreateJournal@22eeefeb]" name="beforeMethod" is-config="true" duration-ms="117" started-at="2018-04-27T12:25:05Z" finished-at="2018-04-27T12:25:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.web.automation.scripts.CreateJournal.CreateJournal(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.Throwable]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="CreateJournal(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.web.automation.scripts.CreateJournal@22eeefeb]" name="CreateJournal" duration-ms="134916" started-at="2018-04-27T12:25:05Z" description="Create Journal" data-provider="DataSets" finished-at="2018-04-27T12:27:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Cigniti]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Cigniti123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[TestBacth7]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[BatchTest55 description]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Header55]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Header55 description]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Adjustment]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[0000]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[600060]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[0000]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[20000]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[Debit description]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[1200]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[400100]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[0000]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[20000]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[Credit description]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[Title]]>
+              </value>
+            </param>
+            <param index="20">
+              <value>
+                <![CDATA[Title description]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateJournal -->
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:com.web.automation.scripts.CreateJournal@22eeefeb]" name="afterMethod" is-config="true" duration-ms="309" started-at="2018-04-27T12:27:20Z" finished-at="2018-04-27T12:27:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.web.automation.scripts.CreateJournal.CreateJournal(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.Throwable]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=CreateJournal status=SUCCESS method=CreateJournal.CreateJournal(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.web.automation.scripts.CreateJournal@22eeefeb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.web.automation.scripts.CreateJournal@22eeefeb]" name="afterClass" is-config="true" duration-ms="22149" started-at="2018-04-27T12:27:20Z" finished-at="2018-04-27T12:27:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.web.automation.scripts.CreateJournal@22eeefeb]" name="afterTest" is-config="true" duration-ms="17" started-at="2018-04-27T12:30:20Z" finished-at="2018-04-27T12:30:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.web.automation.scripts.CreateJournal@22eeefeb]" name="afterSuite" is-config="true" duration-ms="66" started-at="2018-04-27T12:30:20Z" finished-at="2018-04-27T12:30:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.web.automation.scripts.CreateJournal -->
+    </test> <!-- Default test 2 -->
+  </suite> <!-- Default suite -->
+</testng-results>
