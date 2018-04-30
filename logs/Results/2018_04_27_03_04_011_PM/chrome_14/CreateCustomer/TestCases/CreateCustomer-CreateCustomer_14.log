@@ -1,0 +1,19 @@
+27/04/2018 15:04:30	INFO 	CreateCustomer-CreateCustomer_14		Testcase executed on the Node IP: localhost
+27/04/2018 15:04:30	INFO 	CreateCustomer-CreateCustomer_14		***** Dataprovider Iteration No: 1 : *****
+27/04/2018 15:04:33	INFO 	CreateCustomer-CreateCustomer_14		Successfully find 'By.id: userid' element on 'Sign In' page
+27/04/2018 15:04:33	INFO 	CreateCustomer-CreateCustomer_14		Info. Element 'By.id: userid' exists on 'Sign In' page.
+27/04/2018 15:04:42	INFO 	CreateCustomer-CreateCustomer_14		Successfully find 'By.id: pt1:_UISpgl53u' element on 'Welcome' page
+27/04/2018 15:04:42	INFO 	CreateCustomer-CreateCustomer_14		Info. Element 'By.id: pt1:_UISpgl53u' exists on 'Welcome' page.
+27/04/2018 15:04:48	INFO 	CreateCustomer-CreateCustomer_14		Successfully find 'By.xpath: //img[@title='Tasks']' element on 'Transactions - Billing - Oracle Applications' page
+27/04/2018 15:04:48	INFO 	CreateCustomer-CreateCustomer_14		Info. Element 'By.xpath: //img[@title='Tasks']' exists on 'Transactions - Billing - Oracle Applications' page.
+27/04/2018 15:04:53	INFO 	CreateCustomer-CreateCustomer_14		Get text for Rgistry ID
+27/04/2018 15:04:53	INFO 	CreateCustomer-CreateCustomer_14		Successfully find 'By.xpath: //*[@id='_FOpt1:_FOr1:0:_FOSritemNode_receivables_billing:0:MAnt2:1:cupanel1:pt_r1:0:inputText1']//td[2]/span' element on 'Create Customer - Billing - Oracle Applications' page
+27/04/2018 15:06:35	INFO 	CreateCustomer-CreateCustomer_14		Get text for Registry ID
+27/04/2018 15:06:36	INFO 	CreateCustomer-CreateCustomer_14		Successfully find 'By.xpath: //div[@id='_FOpt1:_FOr1:0:_FOSritemNode_receivables_billing:0:MAnt2:2:AP1:pt_r1:0:AT1:_ATp:table1::db']//td[3]/span/a' element on 'Create Customer - Billing - Oracle Applications' page
+27/04/2018 15:06:40	INFO 	CreateCustomer-CreateCustomer_14		Get text for Customer Name
+27/04/2018 15:06:40	INFO 	CreateCustomer-CreateCustomer_14		Successfully find 'By.xpath: //div[@id='_FOpt1:_FOr1:0:_FOSritemNode_receivables_billing:0:MAnt2:2:AP1:pt_r1:0:AT1:_ATp:table1::db']//td[4]//a/span' element on 'Create Customer - Billing - Oracle Applications' page
+27/04/2018 15:06:42	INFO 	CreateCustomer-CreateCustomer_14		Get text for Customer AccountNumber
+27/04/2018 15:06:43	INFO 	CreateCustomer-CreateCustomer_14		Successfully find 'By.xpath: //div[@id='_FOpt1:_FOr1:0:_FOSritemNode_receivables_billing:0:MAnt2:2:AP1:pt_r3:0:AT1:_ATp:table1::db']//td[3]//a/span' element on 'Create Customer - Billing - Oracle Applications' page
+27/04/2018 15:06:47	INFO 	CreateCustomer-CreateCustomer_14		Get text for Customer SiteAddress
+27/04/2018 15:06:47	INFO 	CreateCustomer-CreateCustomer_14		Successfully find 'By.xpath: //div[@id='_FOpt1:_FOr1:0:_FOSritemNode_receivables_billing:0:MAnt2:2:AP1:pt_r4:0:AT1:_ATp:table1::db']//td[4]/span' element on 'Create Customer - Billing - Oracle Applications' page
+27/04/2018 15:06:52	INFO 	CreateCustomer-CreateCustomer_14		Stopping the class

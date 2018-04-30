@@ -74,7 +74,6 @@ public class CreateJournal extends TestEngineWeb {
 			//Create Journal
 			Journals.fnCreateJournal(JournalBatchName, JournalBatchDescription, JournalHeader, JournalHeaderDescription, Category, Company1, BusinessLine1, Account1, Future1, Debit, DebitDescription, Company2, BusinessLine2, Account2, Future2, Credit, CreditDescription, AttachmentTitle, AttachmentTitleDescription);
 			
-			
 			}
 		catch (Exception e) {
 			testCaseFailureReason = "Failed to complete Journal Creation";

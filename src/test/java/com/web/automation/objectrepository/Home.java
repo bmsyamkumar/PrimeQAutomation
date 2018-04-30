@@ -11,6 +11,5 @@ public class Home{
 	public static By Journals = By.xpath("//td/a[@id='pt1:nv_itemNode_general_accounting_journals']");
 
 	
-	//svg
 }
 	

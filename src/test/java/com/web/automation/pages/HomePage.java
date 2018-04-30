@@ -99,6 +99,30 @@ public class HomePage extends BasePage {
 			e.printStackTrace();			
 		}
 	}
+	
+	public void fnSignOut() throws Throwable
+	{		
+		try
+		{	
+			if(actionLib.waitForElementPresent(Home.Navigator, 15))
+			{	
+				//Sign Out
+				actionLib.Click(Journals.Profile, "Profile");
+				actionLib.Click(Journals.SignOut, "SignOut");
+				actionLib.Click(Journals.Confirm, "Confirm");
+				
+				extentLogs.pass("Signout","Signout successful");					
+			}
+		}
+		catch(Exception e)
+		{	
+			extentLogs.fail("Signout","Not able to Signout from application");
+			e.printStackTrace();			
+		}
+	}
+	
+	
+	
 }
 
 

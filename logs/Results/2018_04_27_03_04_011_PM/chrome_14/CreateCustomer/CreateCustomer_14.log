@@ -1,0 +1,4 @@
+27/04/2018 15:04:12	INFO 	CreateCustomer_14		Staring the class
+27/04/2018 15:04:12	DEBUG	CreateCustomer_14		In Before Class method inside TestEngineWeb.
+27/04/2018 15:04:20	INFO 	CreateCustomer_14		Info: navigating URL : 'https://ecqu-test.fa.ap1.oraclecloud.com/'
+27/04/2018 15:06:52	INFO 	CreateCustomer_14		Stopping the class

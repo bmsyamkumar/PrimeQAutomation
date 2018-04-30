@@ -75,7 +75,6 @@ public class CreateCustomer extends TestEngineWeb {
 			//Create JOurnal
 			CreateCustomer.fnCreateCustomer(Name, DUNSNumber, AccountNumber, AccountDescription, AccountType, CustomerClass, AccountAddressSet, SiteName, AddressLine1, City, AddressPurposes1, AddressPurposes2, BusinessUnit, Prefix, FirstName, LastName, RoleType, ContactPointType, ContactPointPurpose, EmailFormat, Email, ResponsibilityType1, ResponsibilityType2, CreateAddressLine1, CreateAddressCity, CreateAddressPurpose);
 			
-			
 			}
 		catch (Exception e) {
 			testCaseFailureReason = "Failed to complete Customer Creation";

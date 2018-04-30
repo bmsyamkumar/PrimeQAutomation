@@ -1,0 +1,11 @@
+27/04/2018 14:50:56	INFO 	CreateCustomer-CreateCustomer_11		Testcase executed on the Node IP: localhost
+27/04/2018 14:50:56	INFO 	CreateCustomer-CreateCustomer_11		***** Dataprovider Iteration No: 1 : *****
+27/04/2018 14:51:00	INFO 	CreateCustomer-CreateCustomer_11		Successfully find 'By.id: userid' element on 'Sign In' page
+27/04/2018 14:51:00	INFO 	CreateCustomer-CreateCustomer_11		Info. Element 'By.id: userid' exists on 'Sign In' page.
+27/04/2018 14:51:10	INFO 	CreateCustomer-CreateCustomer_11		Successfully find 'By.id: pt1:_UISpgl53u' element on 'Welcome' page
+27/04/2018 14:51:10	INFO 	CreateCustomer-CreateCustomer_11		Info. Element 'By.id: pt1:_UISpgl53u' exists on 'Welcome' page.
+27/04/2018 14:51:21	INFO 	CreateCustomer-CreateCustomer_11		Successfully find 'By.xpath: //img[@title='Tasks']' element on 'Transactions - Billing - Oracle Applications' page
+27/04/2018 14:51:22	INFO 	CreateCustomer-CreateCustomer_11		Info. Element 'By.xpath: //img[@title='Tasks']' exists on 'Transactions - Billing - Oracle Applications' page.
+27/04/2018 14:51:26	INFO 	CreateCustomer-CreateCustomer_11		Get text for Rgistry ID
+27/04/2018 14:51:26	INFO 	CreateCustomer-CreateCustomer_11		Successfully find 'By.xpath: //*[@id='_FOpt1:_FOr1:0:_FOSritemNode_receivables_billing:0:MAnt2:1:cupanel1:pt_r1:0:inputText1']//td[2]/span' element on 'Create Customer - Billing - Oracle Applications' page
+27/04/2018 14:52:05	DEBUG	CreateCustomer-CreateCustomer_11		Error. Caught 'StaleElementReferenceException' exception while clicking on '[[ChromeDriver: chrome on XP (ad0ba81a19d5001717232d608f1e5788)] -> id: _FOpt1:_FOr1:0:_FOSritemNode_receivables_billing:0:MAnt2:2:AP1:pt_r4:0:AT1:_ATp:table1:0:outputText61]' element.

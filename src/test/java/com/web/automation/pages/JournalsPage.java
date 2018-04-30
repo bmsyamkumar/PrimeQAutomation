@@ -149,6 +149,7 @@ public class JournalsPage extends BasePage {
 				
 				
 				actionLib.Click(Journals.AccountOK2, "OK");
+				Thread.sleep(3000);
 				if (!Credit.isEmpty())
 					actionLib.type(Journals.Line2Credit, Credit, "Credit");
 				if (!CreditDescription.isEmpty())
@@ -177,10 +178,10 @@ public class JournalsPage extends BasePage {
 				actionLib.Click(Journals.ConfirmationOK, "ConfirmationOK");
 				Thread.sleep(3000);
 				
-				//Sign Out
 				actionLib.Click(Journals.Profile, "Profile");
 				actionLib.Click(Journals.SignOut, "SignOut");
-				actionLib.Click(Journals.Confirm, "Confirm");
+				actionLib.Click(Journals.Confirm, "Confirm");				
+				extentLogs.pass("Signout","Signout successful");
 				
 				extentLogs.pass("Create Journal","Create Journal Successfull");					
 			}

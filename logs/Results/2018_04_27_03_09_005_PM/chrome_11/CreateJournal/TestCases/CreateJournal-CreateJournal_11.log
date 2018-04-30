@@ -1,0 +1,8 @@
+27/04/2018 15:09:21	INFO 	CreateJournal-CreateJournal_11		Testcase executed on the Node IP: localhost
+27/04/2018 15:09:21	INFO 	CreateJournal-CreateJournal_11		***** Dataprovider Iteration No: 1 : *****
+27/04/2018 15:09:25	INFO 	CreateJournal-CreateJournal_11		Successfully find 'By.id: userid' element on 'Sign In' page
+27/04/2018 15:09:25	INFO 	CreateJournal-CreateJournal_11		Info. Element 'By.id: userid' exists on 'Sign In' page.
+27/04/2018 15:09:33	INFO 	CreateJournal-CreateJournal_11		Successfully find 'By.id: pt1:_UISpgl53u' element on 'Welcome' page
+27/04/2018 15:09:33	INFO 	CreateJournal-CreateJournal_11		Info. Element 'By.id: pt1:_UISpgl53u' exists on 'Welcome' page.
+27/04/2018 15:09:45	INFO 	CreateJournal-CreateJournal_11		Successfully find 'By.xpath: //img[@title='Tasks']' element on 'Journals - Journals - Oracle Applications' page
+27/04/2018 15:09:46	INFO 	CreateJournal-CreateJournal_11		Info. Element 'By.xpath: //img[@title='Tasks']' exists on 'Journals - Journals - Oracle Applications' page.

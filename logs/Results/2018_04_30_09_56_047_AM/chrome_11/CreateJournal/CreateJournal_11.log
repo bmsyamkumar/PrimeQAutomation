@@ -1,0 +1,4 @@
+30/04/2018 09:56:49	INFO 	CreateJournal_11		Staring the class
+30/04/2018 09:56:49	DEBUG	CreateJournal_11		In Before Class method inside TestEngineWeb.
+30/04/2018 09:56:56	INFO 	CreateJournal_11		Info: navigating URL : 'https://ecqu-test.fa.ap1.oraclecloud.com/'
+30/04/2018 09:59:23	INFO 	CreateJournal_11		Stopping the class

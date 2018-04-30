@@ -2,7 +2,7 @@
 <testng-results skipped="0" failed="0" ignored="4" total="6" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="330919" started-at="2018-04-27T06:54:49Z" finished-at="2018-04-27T07:00:20Z">
+  <suite name="Default suite" duration-ms="351754" started-at="2018-04-30T04:26:48Z" finished-at="2018-04-30T04:32:39Z">
     <groups>
       <group name="regression">
         <method signature="CreateCustomer.CreateCustomer(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.web.automation.scripts.CreateCustomer@396e2f39]" name="CreateCustomer" class="com.web.automation.scripts.CreateCustomer"/>
@@ -13,13 +13,13 @@
         <method signature="CreateJournal.CreateJournal(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.web.automation.scripts.CreateJournal@22eeefeb]" name="CreateJournal" class="com.web.automation.scripts.CreateJournal"/>
       </group> <!-- smoke -->
     </groups>
-    <test name="Default test 2" duration-ms="330919" started-at="2018-04-27T06:54:49Z" finished-at="2018-04-27T07:00:20Z">
+    <test name="Default test 2" duration-ms="351754" started-at="2018-04-30T04:26:48Z" finished-at="2018-04-30T04:32:39Z">
       <class name="com.web.automation.scripts.CreateCustomer">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.web.automation.scripts.CreateCustomer@396e2f39]" name="beforeClass" is-config="true" duration-ms="29151" started-at="2018-04-27T12:27:42Z" finished-at="2018-04-27T12:28:12Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.web.automation.scripts.CreateCustomer@396e2f39]" name="beforeClass" is-config="true" duration-ms="29467" started-at="2018-04-30T09:59:45Z" finished-at="2018-04-30T10:00:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.web.automation.scripts.CreateCustomer@396e2f39]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2018-04-27T12:28:12Z" finished-at="2018-04-27T12:28:12Z">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.web.automation.scripts.CreateCustomer@396e2f39]" name="beforeMethod" is-config="true" duration-ms="2" started-at="2018-04-30T10:00:15Z" finished-at="2018-04-30T10:00:15Z">
           <params>
             <param index="0">
               <value>
@@ -30,7 +30,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="CreateCustomer(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.web.automation.scripts.CreateCustomer@396e2f39]" name="CreateCustomer" duration-ms="105926" started-at="2018-04-27T12:28:12Z" description="Create Customer" data-provider="DataSets" finished-at="2018-04-27T12:29:58Z">
+        <test-method status="PASS" signature="CreateCustomer(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.web.automation.scripts.CreateCustomer@396e2f39]" name="CreateCustomer" duration-ms="122330" started-at="2018-04-30T10:00:15Z" description="Create Customer" data-provider="DataSets" finished-at="2018-04-30T10:02:17Z">
           <params>
             <param index="0">
               <value>
@@ -44,7 +44,7 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[TestCustomer23]]>
+                <![CDATA[TestCustomer37]]>
               </value>
             </param>
             <param index="3">
@@ -54,7 +54,7 @@
             </param>
             <param index="4">
               <value>
-                <![CDATA[23]]>
+                <![CDATA[37]]>
               </value>
             </param>
             <param index="5">
@@ -176,7 +176,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CreateCustomer -->
-        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:com.web.automation.scripts.CreateCustomer@396e2f39]" name="afterMethod" is-config="true" duration-ms="34" started-at="2018-04-27T12:29:58Z" finished-at="2018-04-27T12:29:58Z">
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:com.web.automation.scripts.CreateCustomer@396e2f39]" name="afterMethod" is-config="true" duration-ms="35" started-at="2018-04-30T10:02:17Z" finished-at="2018-04-30T10:02:17Z">
           <params>
             <param index="0">
               <value>
@@ -192,39 +192,39 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.web.automation.scripts.CreateCustomer@396e2f39]" name="afterClass" is-config="true" duration-ms="22065" started-at="2018-04-27T12:29:58Z" finished-at="2018-04-27T12:30:20Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.web.automation.scripts.CreateCustomer@396e2f39]" name="afterClass" is-config="true" duration-ms="22019" started-at="2018-04-30T10:02:17Z" finished-at="2018-04-30T10:02:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- com.web.automation.scripts.CreateCustomer -->
       <class name="com.web.automation.scripts.CreateJournal">
-        <test-method status="PASS" signature="beforeSuite(org.testng.ITestContext)[pri:0, instance:com.web.automation.scripts.CreateJournal@22eeefeb]" name="beforeSuite" is-config="true" duration-ms="71" started-at="2018-04-27T12:24:49Z" finished-at="2018-04-27T12:24:49Z">
+        <test-method status="PASS" signature="beforeSuite(org.testng.ITestContext)[pri:0, instance:com.web.automation.scripts.CreateJournal@22eeefeb]" name="beforeSuite" is-config="true" duration-ms="69" started-at="2018-04-30T09:56:47Z" finished-at="2018-04-30T09:56:48Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@3bbc39f8]]>
+                <![CDATA[org.testng.TestRunner@4ae3c1cd]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="beforeTest(org.testng.ITestContext)[pri:0, instance:com.web.automation.scripts.CreateJournal@22eeefeb]" name="beforeTest" is-config="true" duration-ms="1543" started-at="2018-04-27T12:24:49Z" finished-at="2018-04-27T12:24:50Z">
+        <test-method status="PASS" signature="beforeTest(org.testng.ITestContext)[pri:0, instance:com.web.automation.scripts.CreateJournal@22eeefeb]" name="beforeTest" is-config="true" duration-ms="1562" started-at="2018-04-30T09:56:48Z" finished-at="2018-04-30T09:56:49Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@3bbc39f8]]>
+                <![CDATA[org.testng.TestRunner@4ae3c1cd]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.web.automation.scripts.CreateJournal@22eeefeb]" name="beforeClass" is-config="true" duration-ms="14014" started-at="2018-04-27T12:24:50Z" finished-at="2018-04-27T12:25:04Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.web.automation.scripts.CreateJournal@22eeefeb]" name="beforeClass" is-config="true" duration-ms="12425" started-at="2018-04-30T09:56:49Z" finished-at="2018-04-30T09:57:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.web.automation.scripts.CreateJournal@22eeefeb]" name="beforeMethod" is-config="true" duration-ms="117" started-at="2018-04-27T12:25:05Z" finished-at="2018-04-27T12:25:05Z">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.web.automation.scripts.CreateJournal@22eeefeb]" name="beforeMethod" is-config="true" duration-ms="110" started-at="2018-04-30T09:57:02Z" finished-at="2018-04-30T09:57:02Z">
           <params>
             <param index="0">
               <value>
@@ -235,7 +235,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="CreateJournal(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.web.automation.scripts.CreateJournal@22eeefeb]" name="CreateJournal" duration-ms="134916" started-at="2018-04-27T12:25:05Z" description="Create Journal" data-provider="DataSets" finished-at="2018-04-27T12:27:20Z">
+        <test-method status="PASS" signature="CreateJournal(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.web.automation.scripts.CreateJournal@22eeefeb]" name="CreateJournal" duration-ms="140679" started-at="2018-04-30T09:57:02Z" description="Create Journal" data-provider="DataSets" finished-at="2018-04-30T09:59:23Z">
           <params>
             <param index="0">
               <value>
@@ -249,7 +249,7 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[TestBacth7]]>
+                <![CDATA[TestBacth19]]>
               </value>
             </param>
             <param index="3">
@@ -346,7 +346,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CreateJournal -->
-        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:com.web.automation.scripts.CreateJournal@22eeefeb]" name="afterMethod" is-config="true" duration-ms="309" started-at="2018-04-27T12:27:20Z" finished-at="2018-04-27T12:27:20Z">
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:com.web.automation.scripts.CreateJournal@22eeefeb]" name="afterMethod" is-config="true" duration-ms="294" started-at="2018-04-30T09:59:23Z" finished-at="2018-04-30T09:59:23Z">
           <params>
             <param index="0">
               <value>
@@ -362,15 +362,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.web.automation.scripts.CreateJournal@22eeefeb]" name="afterClass" is-config="true" duration-ms="22149" started-at="2018-04-27T12:27:20Z" finished-at="2018-04-27T12:27:42Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.web.automation.scripts.CreateJournal@22eeefeb]" name="afterClass" is-config="true" duration-ms="22131" started-at="2018-04-30T09:59:23Z" finished-at="2018-04-30T09:59:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.web.automation.scripts.CreateJournal@22eeefeb]" name="afterTest" is-config="true" duration-ms="17" started-at="2018-04-27T12:30:20Z" finished-at="2018-04-27T12:30:20Z">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.web.automation.scripts.CreateJournal@22eeefeb]" name="afterTest" is-config="true" duration-ms="16" started-at="2018-04-30T10:02:39Z" finished-at="2018-04-30T10:02:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.web.automation.scripts.CreateJournal@22eeefeb]" name="afterSuite" is-config="true" duration-ms="66" started-at="2018-04-27T12:30:20Z" finished-at="2018-04-27T12:30:20Z">
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.web.automation.scripts.CreateJournal@22eeefeb]" name="afterSuite" is-config="true" duration-ms="70" started-at="2018-04-30T10:02:39Z" finished-at="2018-04-30T10:02:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->
